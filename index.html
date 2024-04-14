@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+        <nav>
+          <div class="container">
+            <div class="navigation">
+                <ul class="left__list">
+                    <li class="left__item"><img src="/img/logo.svg" alt="logo"></li>
+                    <li class="left__item"><img src="/img/search.svg" alt="search"></li>
+                </ul>
+                <ul class="right__list">
+                    <li class="right__item">
+                        <div class="container__hamburger">
+                            <div class="hamburger__item__1 ham__item"></div>
+                            <div class="hamburger__item__2 ham__item"></div>
+                            <div class="hamburger__item__3 ham__item"></div>
+                        </div>
+                    </li>
+                    <li class="right__item"><img src="/img/user.svg" alt="user"></li>
+                    <li class="right__item"><a href="#cart__title"><img src="img/basket.svg" alt="basket" width="32" height="29"></a>
+                         <span id="cartCounter" class="cart_counter"></span></li>
+                </ul>
+               
+            </div>
+          </div>
+        </nav>
+</header>
+   
+<main>
+   
+    <section class="block__main_title">
+        <div class="container__main__title">
+            <div class="main__img">
+                <img src="/img/man_title_1.png" alt="">
+            </div>
+            <div class="main__text">
+                <h3 class="main__text__title">THE BRAND</h3>
+                <p class="main__text__desc">OF LUXERIOUS<span>FASHION</span></p>
+            </div>
+            <div class="hamburger__menu">
+                <h2 class="ham__menu__title">MENU</h2>
+                <div class="menu__man">
+                    <h3 class="menu__man__title">MAN</h3>
+                    <ul class="menu__list__man">
+                        <li class="menu__item__man"><a href="#">Accessories</a></li>
+                        <li class="menu__item__man"><a href="#">Bags</a></li>
+                        <li class="menu__item__man"><a href="#">Denim</a></li>
+                        <li class="menu__item__man"><a href="#">T-Shirts</a></li>
+                    </ul>
+                </div>
+                <div class="menu__woman">
+                    <h3 class="menu__woman_title">WOMAN</h3>
+                    <ul class="menu__list__woman">
+                        <li class="menu__item___woman"><a href="#">Accessories</a></li>
+                        <li class="menu__item___woman"><a href="#">Jackets & Coats</a></li>
+                        <li class="menu__item___woman"><a href="#">Polos</a></li>
+                        <li class="menu__item___woman"><a href="#">T-Shirts</a></li>
+                        <li class="menu__item___woman"><a href="#">Shirts</a></li>
+                    </ul>
+                </div>
+                <div class="menu__kids">
+                    <h3 class="menu__kids__title">KIDS</h3>
+                    <ul class="menu__list__kids">
+                        <li class="menu__item__kids"><a href="#">Accessories</a></li>
+                        <li class="menu__item__kids"><a href="#">Jackets & Coats</a></li>
+                        <li class="menu__item__kids"><a href="#">Polos</a></li>
+                        <li class="menu__item__kids"><a href="#">T-Shirts</a></li>
+                        <li class="menu__item__kids"><a href="#">Shirts</a></li>
+                        <li class="menu__item__kids"><a href="#">Bags</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <section class="block__offer">
+        <div class="container__offer">
+            <div class="offer__up">
+                <a href="#" class="offer__up__item__1">
+                    <p class="offer__up__title">30% OFF</p>
+                    <span class="offer__up__text">FOR WOMEN</span>
+                </a>
+                <a href="#" class="offer__up__item__2">
+                    <p class="offer__up__title">HOT DEAL</p>
+                    <span class="offer__up__text">FOR MEN</span>
+                </a>
+                <a href="#" class="offer__up__item__3">
+                    <p class="offer__up__title">NEW ARRIVALS</p>
+                    <span class="offer__up__text">FOR KIDS</span>
+                </a>
+            </div>
+            <a href="#" class="offer__down">
+                <p class="offer__down__title">LUXIROUS & TRENDY</p>
+                <span class="offer__down__text">ACCESORIES</span>
+            </a>
+        </div>
+    </section>
+   
+    <div class="featured-items"></div>
+
+   
+        <div class="feature__block">
+            <div class="feature__item">
+                <img class="feature__img" src="/img/feature_icon_1.svg" alt="">
+                <h3 class="feature__title" style="margin-top: 28px;">Free Delivery</h3>
+                <p class="feature__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+            <div class="feature__item">
+                <img class="feature__img" src="/img/feature_icon_2.svg" alt="">
+                <h3 class="feature__title" style="margin-top: 19px;">Sales & discounts</h3>
+                <p class="feature__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+            <div class="feature__item">
+                <img class="feature__img" src="/img/feature_icon_3.svg" alt="">
+                <h3 class="feature__title" style="margin-top: 25px;">Quality assurance</h3>
+                <p class="feature__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+        </div>
+        <!-- корзина начало -->
+        <div class="cart_container">
+            <h1 id="cart__title" class="title">Cart Items</h1>
+            <div id="cartItems" class="cart__items"></div>
+        </div>
+        <!-- корзина конец -->
+        <section class="subscribe__block">
+            <div class="container__subscribe">
+                <div class="subscribe__left">
+                    <img src="/img/photo_woman_footer.png" alt="" class="subscribe__left__img">
+                    <p class="subcribe__left__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span class="subcribe__left__desc__text">a pulvinar purus condimentum“</span></p>
+                </div>
+                <div class="subscribe__right">
+                    <h3 class="subscribe__right__title">SUBSCRIBE</h3>
+                    <span class="subscribe__right__text">SUBSCRIBE 
+                        FOR OUR NEWLETTER AND PROMOTION</span>
+                    <form action="#" class="subscribe__form">
+                        <input id="subscribe__input" type="email" placeholder="Enter Your Email">
+                        <button class="subscribe__btn" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+</main>
+    
+<footer>
+    <section class="footer__block">
+        <div class="container__footer">
+            <div class="footer__left">
+                <span class="footer__lef__text">© 2022</span>
+                <span class="footer__lef__text">Brand</span>
+                <span class="footer__lef__text">All Rights Reserved.</span>
+            </div>
+            <div class="footer__right">
+                <a href="#" class="footer__social__link"><img src="/img/face_icon.svg" alt="" class="footer__social__img"></a>
+                <a href="#" class="footer__social__link"><img src="/img/insta_icon.svg" alt="" class="footer__social__img"></a>
+                <a href="#" class="footer__social__link"><img src="/img/pint_icon.svg" alt="" class="footer__social__img"></a>
+                <a href="#" class="footer__social__link"><img src="img/twitt_icon.svg" alt="" class="footer__social__img"></a>
+            </div>
+        </div>
+    </section>
+</footer>
+    
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+
+    <!-- <script>
+const arrLength = 15;
+const numbers = [];
+const newNumbers = [];
+
+for (i = 0; i < arrLength; i++) {
+    numbers[i] = Math.floor(Math.random() * 10);
+    };
+
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] === 3) {
+        newNumbers.push(i);
+    };
+    };
+
+    console.log(numbers)
+    console.log(newNumbers);
+    </script> -->
+</body>
+</html>
